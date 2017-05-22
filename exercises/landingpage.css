@@ -1,0 +1,26 @@
+#navbar .derecha,
+#navbar .izquierda {
+  width: 50%;
+  float: left;
+}
+
+#navbar {
+  background-color: blue;
+  height: 50px;
+}
+
+#navbar .derecha a,
+#navbar .izquierda a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+#navbar .derecha a {
+  border: 1px solid white;
+  margin-right: 25%;
+}
+
+#navbar .izquierda a {
+  margin-left: 25%;
+}
