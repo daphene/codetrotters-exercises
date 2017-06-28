@@ -16,7 +16,7 @@
 }
 
 .navbar-toggle {
-    display: block;
+    display: block !important;
 }
 
 .navbar-collapse {
@@ -98,8 +98,6 @@ h1.navbar-brand {
   color: #FA4516;
   background-color: transparent;
 }
-
-
 
 /*<--- Home Page: Slideshow --->*/
 
@@ -260,7 +258,6 @@ h1.navbar-brand {
 
 /*<--- Footer --->*/
 
-
 #myFooter {
     background-color: #FA4516;
     color: white;
@@ -268,60 +265,55 @@ h1.navbar-brand {
 }
 
 #myFooter .footer-copyright {
-    background-color: #333333;
+    background-color: #DD3D1D;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
 }
 
 #myFooter .row {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 #myFooter .navbar-brand {
-    margin-top: 45px;
-    height: 65px;
+    margin-top: 10px;
+    height: 45px;
 }
 
 #myFooter .footer-copyright p {
     margin: 10px;
-    color: #ccc;
+    color: white;
 }
 
 #myFooter ul {
+    font-size: 15px;
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 40%;
     line-height: 1.7;
 }
 
 #myFooter h5 {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
-    margin-top: 30px;
-}
-
-#myFooter h2 a{
-    font-size: 50px;
-    text-align: center;
-    color: #fff;
+    padding-left: 40%;
+    margin-top: 10px;
 }
 
 #myFooter a {
-    color: #d2d1d1;
+    color: white;
     text-decoration: none;
 }
 
 #myFooter a:hover,
 #myFooter a:focus {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #myFooter .social-networks {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 16px;
+    padding-top: 20px;
 }
 
 #myFooter .social-networks a {
@@ -341,20 +333,15 @@ h1.navbar-brand {
 }
 
 #myFooter .youtube:hover {
-    color: #ef1a1a;
+    color: black;
 }
 
 #myFooter .twitter:hover {
     color: #00aced;
 }
 
-
 @media screen and (max-width: 767px) {
     #myFooter {
         text-align: center;
     }
 }
-
-
-/* CSS used for positioning the footers at the bottom of the page. */
-/* You can remove this. */
