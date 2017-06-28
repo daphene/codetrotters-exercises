@@ -64,13 +64,42 @@ h1.navbar-brand {
 
 #color-button {
   background: url('Imagenes/menublanco.png') no-repeat center center;
-  background-size: cover;
+  background-size: 40px;
+}
+
+#logo {
+  padding-top: 2%;
 }
 
 #bs-example-navbar-collapse-1 {
   text-align: center;
-  background-color: lightgrey;
+  background-color: white;
+  height: 100vh;
 }
+
+.collapse.navbar-collapse {
+  max-height: none !important;
+}
+
+@media (min-width: 768px) {
+
+  .navbar-collapse.collapse {
+    max-height: none !important;
+  }
+}
+
+#bs-example-navbar-collapse-1 a {
+  color: black;
+  font-size: 15vmin;
+  line-height: 15vmin;
+}
+
+#bs-example-navbar-collapse-1 a:hover {
+  color: #FA4516;
+  background-color: transparent;
+}
+
+
 
 /*<--- Home Page: Slideshow --->*/
 
@@ -118,10 +147,23 @@ h1.navbar-brand {
   background: url('Imagenes/work1.jpg') no-repeat center center;
   background-size: cover;
   height: 300px
+}
 
+/*<--- Our Story --->*/
+
+#ourstory-img {
+  background: url('Imagenes/girlboss.jpg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
 }
 
 /*<--- Categories: Internships --->*/
+
+#internships {
+  background: url('Imagenes/inoffice.jpg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
 
 #categorie-1-2 > .col-wrapper-4 {
   background: url('Imagenes/seetheworld.jpg') no-repeat center center;
@@ -139,7 +181,6 @@ h1.navbar-brand {
   background: url('Imagenes/work1.jpg') no-repeat center center;
   background-size: cover;
   height: 300px
-
 }
 
 /*<--- Categories: Intern Abroad --->*/
@@ -163,21 +204,13 @@ h1.navbar-brand {
 
 }
 
-/*<--- Categories: Articles --->*/
-
-#article-1 > .col-wrapper-4 {
-  background: url('Imagenes/seetheworld.jpg') no-repeat center center;
-  background-size: cover;
-  height: 150px;
-}
-
-#article-2 > .col-wrapper-4 {
-  background: url('Imagenes/workabroad.jpg') no-repeat center center;
-  background-size: cover;
-  height: 150px;
-}
-
 /*<--- Categories: Past Stories --->*/
+
+#paststories {
+  background: url('Imagenes/inoffice.jpg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
 
 #story-1 > .col-wrapper-4 {
   background: url('Imagenes/pedro.jpg') no-repeat center center;
@@ -205,28 +238,123 @@ h1.navbar-brand {
   height: 500px;
 }
 
-/*<--- Home Page: Articles --->*/
+/*<--- Categories: Articles --->*/
 
 #articles {
+  background: url('Imagenes/seetheworld.jpg') no-repeat center center;
+  background-size: cover;
   height: 250px;
 }
 
-#img1-car {
+/*<--- Articles --->*/
+
+#articles-head {
   background: url('Imagenes/inoffice.jpg') no-repeat center center;
   background-size: cover;
-  height: 250px;
+  height: 600px;
 }
 
-#img2-car {
-  background: url('Imagenes/work2.jpg') no-repeat center center;
-  background-size: cover;
-  height: 250px;
+.media-heading {
+  margin-top: 2%;
 }
 
 /*<--- Footer --->*/
 
-#info-sm-searchbar {
-  background-color: #75AFD3;
-  padding: auto;
-  height: 100px;
+
+#myFooter {
+    background-color: #FA4516;
+    color: white;
+    padding-top: 30px;
 }
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    padding-top: 2%;
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .youtube:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
