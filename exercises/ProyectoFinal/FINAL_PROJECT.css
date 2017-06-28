@@ -106,19 +106,19 @@ h1.navbar-brand {
 }
 
 #img-1-car {
-  background: url('Imagenes/inoffice.jpg') no-repeat center center;
+  background: url('Imagenes/office.jpeg') no-repeat center center;
   background-size: cover;
   height: 600px;
 }
 
 #img-2-car {
-  background: url('Imagenes/work2.jpg') no-repeat center center;
+  background: url('Imagenes/teamwork.jpeg') no-repeat center center;
   background-size: cover;
   height: 600px;
 }
 
 #img-3-car {
-  background: url('Imagenes/interns.jpg') no-repeat center center;
+  background: url('Imagenes/homeslide1.jpeg') no-repeat center center;
   background-size: cover;
   height: 600px;
 }
@@ -130,32 +130,32 @@ h1.navbar-brand {
 }
 
 #categorie-1 > .col-wrapper-4 {
-  background: url('Imagenes/seetheworld.jpg') no-repeat center center;
-  background-size: cover;
-  height: 300px;
-}
-
-#categorie-2 > .col-wrapper-4 {
-  background: url('Imagenes/workabroad.jpg') no-repeat center center;
+  background: url('Imagenes/coding.jpg') no-repeat center center;
   background-size: cover;
   height: 300px;
 }
 
 #categorie-3 > .col-wrapper-4 {
-  background: url('Imagenes/work1.jpg') no-repeat center center;
+  background: url('Imagenes/photography.jpg') no-repeat center center;
   background-size: cover;
   height: 300px
+}
+
+#categorie-2 > .col-wrapper-4 {
+  background: url('Imagenes/advertising.jpg') no-repeat center center;
+  background-size: cover;
+  height: 300px;
 }
 
 /*<--- Our Story --->*/
 
 #ourstory-img {
-  background: url('Imagenes/girlboss.jpg') no-repeat center center;
+  background: url('Imagenes/ourstory.jpg') no-repeat center center;
   background-size: cover;
   height: 600px;
 }
 
-/*<--- Categories: Internships --->*/
+/*<--- Internships --->*/
 
 #internships {
   background: url('Imagenes/inoffice.jpg') no-repeat center center;
@@ -181,7 +181,13 @@ h1.navbar-brand {
   height: 300px
 }
 
-/*<--- Categories: Intern Abroad --->*/
+/*<--- Intern Abroad --->*/
+
+#internabroad {
+    background: url('Imagenes/internabroadhead.png') no-repeat center center;
+    background-size: cover;
+    height: 600px
+}
 
 #categorie-1-3 > .col-wrapper-4 {
   background: url('Imagenes/seetheworld.jpg') no-repeat center center;
@@ -199,13 +205,12 @@ h1.navbar-brand {
   background: url('Imagenes/work1.jpg') no-repeat center center;
   background-size: cover;
   height: 300px
-
 }
 
 /*<--- Categories: Past Stories --->*/
 
-#paststories {
-  background: url('Imagenes/inoffice.jpg') no-repeat center center;
+#paststories-img {
+  background: url('Imagenes/paststories.jpg') no-repeat center center;
   background-size: cover;
   height: 600px;
 }
